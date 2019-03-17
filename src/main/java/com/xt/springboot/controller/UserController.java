@@ -7,11 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author xt
- * @date 2019/3/17 - 6:34
- * @description
- */
+//这个类的所有方法返回的数据直接写给浏览器，（如果是对象转为json数据）
 @RestController
 public class UserController {
 
